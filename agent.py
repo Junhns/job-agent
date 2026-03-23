@@ -77,7 +77,7 @@ def run_agent(job_description: str, resume: str):
             "role": "user",
             "content": f"""You are a job application assistant. Your goal is to write a tailored cover letter.
 
-Here is the job description:
+Here is the job description given:
 {job_description}
 
 Here is the candidate's resume:
