@@ -145,7 +145,14 @@ Use your tools to research first, then write the cover letter."""
 # --- RUN ---
 
 if __name__ == "__main__":
-    job_description = input("Paste the job description (press Enter twice when done):\n")
+    print("Paste the job description (type END on a new line when done):")
+    lines = []
+    while True:
+        line = input()
+        if line.strip() == "END":
+            break
+        lines.append(line)
+    job_description = "\n".join(lines)
 
     resume = """
     Jun Han — CS Student at Toronto Metropolitan University, graduating May 2026
