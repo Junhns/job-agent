@@ -162,6 +162,7 @@ if __name__ == "__main__":
     - AI Interview Coach: Built with React, TypeScript, Claude API. Mock interview app with structured feedback.
     - VulnScan: Multi-page AI security scanner with attack simulation playground. React, TypeScript, Claude API.
     - Liturgy App: Full stack REST API with Quarkus, MongoDB, React, TypeScript.
+    - AI Agent: Built with Python and Claude API. Creates custom cover letters for specific roles.
 
     Experience:
     - Co-Founder, Roblox Game Development Studio (2025-Present)
