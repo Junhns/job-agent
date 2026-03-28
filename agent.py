@@ -155,20 +155,7 @@ if __name__ == "__main__":
     job_description = "\n".join(lines)
 
     resume = """
-    Jun Han — CS Student at Toronto Metropolitan University, graduating May 2026
-    GPA: 3.58
-
-    Projects:
-    - AI Interview Coach: Built with React, TypeScript, Claude API. Mock interview app with structured feedback.
-    - VulnScan: Multi-page AI security scanner with attack simulation playground. React, TypeScript, Claude API.
-    - Liturgy App: Full stack REST API with Quarkus, MongoDB, React, TypeScript.
-    - AI Agent: Built with Python and Claude API. Creates custom cover letters for specific roles.
-
-    Experience:
-    - Co-Founder, Roblox Game Development Studio (2025-Present)
-    - Construction Helper, Shinkarev Construction (2018-2019)
-
-    Skills: React, TypeScript, JavaScript, Python, Java, REST APIs, Git, Claude API
+    Put resume here(Or credentials such as work experience, GPA, Projects, Etc)
     """
 
     run_agent(job_description, resume)
